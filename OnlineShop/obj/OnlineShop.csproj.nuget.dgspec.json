@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\jpolozkova\\OnlineShop\\OnlineShop\\OnlineShop\\OnlineShop.csproj": {}
+    "C:\\Users\\jpolozkova\\Desktop\\AWS_dev\\AWS_dev\\OnlineShop\\OnlineShop.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\jpolozkova\\OnlineShop\\OnlineShop\\OnlineShop\\OnlineShop.csproj": {
+    "C:\\Users\\jpolozkova\\Desktop\\AWS_dev\\AWS_dev\\OnlineShop\\OnlineShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\jpolozkova\\OnlineShop\\OnlineShop\\OnlineShop\\OnlineShop.csproj",
+        "projectUniqueName": "C:\\Users\\jpolozkova\\Desktop\\AWS_dev\\AWS_dev\\OnlineShop\\OnlineShop.csproj",
         "projectName": "OnlineShop",
-        "projectPath": "C:\\Projects\\jpolozkova\\OnlineShop\\OnlineShop\\OnlineShop\\OnlineShop.csproj",
+        "projectPath": "C:\\Users\\jpolozkova\\Desktop\\AWS_dev\\AWS_dev\\OnlineShop\\OnlineShop.csproj",
         "packagesPath": "C:\\Users\\1jpolozkova\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\jpolozkova\\OnlineShop\\OnlineShop\\OnlineShop\\obj\\",
+        "outputPath": "C:\\Users\\jpolozkova\\Desktop\\AWS_dev\\AWS_dev\\OnlineShop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +40,28 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "AWSSDK.Extensions.NETCore.Setup": {
+              "target": "Package",
+              "version": "[3.7.1, )"
+            },
+            "AWSSDK.SQS": {
+              "target": "Package",
+              "version": "[3.7.1, )"
+            },
+            "AWSXRayRecorder": {
+              "target": "Package",
+              "version": "[2.10.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
